@@ -1,0 +1,11 @@
+﻿.venv/
+__pycache__/
+*.pyc
+*.pt
+
+# Private data: student photos, face embeddings, attendance records
+data/*
+!data/.gitkeep
+
+# Generated sample dataset (LFW, research use only)
+sample_dataset/
